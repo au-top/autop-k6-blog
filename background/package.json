@@ -1,0 +1,21 @@
+{
+  "name": "keystone-app",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "keystone dev",
+    "start": "keystone start",
+    "build": "keystone build",
+    "postinstall": "keystone postinstall"
+  },
+  "dependencies": {
+    "@keystone-6/auth": "../k6/keystone/packages/auth",
+    "@keystone-6/core": "../k6/keystone/packages/core",
+    "@keystone-6/fields-document": "../k6/keystone/packages/fields-document",
+    
+    "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": "^14.15 || ^16.13"
+  }
+}
